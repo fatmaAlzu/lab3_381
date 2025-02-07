@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     .container {
+display: flex;
+border: 2px solid black;
+padding: 10px;
+
+}
+.item {
+flex: 2;
+padding: 20px;
+margin: 5px;
+background-color: lightblue;
+border: 1px solid darkblue;
+text-align: center;
+
+}
+.item img {
+width: 100px;
+height: 100px;
+display: block;
+margin: 0 auto 10px;
+
+}
+.item:nth-child(1) {
+order: 3;
+}
+.item:nth-child(2) {
+order: 1;
+}
+.item:nth-child(3) {
+order: 2;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="schulich.png" alt="img">
+            <h2>SCHULICH School of Engineering</h2>
+            <p>UCalgary's hub for innovative engineering education.</p>
+        </div>
+        <div class="item">
+            <img src="EE_eng.png" alt="img">
+            <h2>Electrical Engineering Department</h2>
+            <p>Powering innovation in electronics and systems.</p>
+        </div>
+        <div class="item">
+            <img src="chemical_eng.jpg" alt="img">
+            <h2>Chemical Engineering Department</h2>
+            <p>Innovating in chemical processes and materials.</p>
+        </div>
+        <div class="item">
+            <img src="biomedical.png" alt="img">
+            <h2>Biomedical Engineering Department</h2>
+            <p>Advancing healthcare through engineering.</p>
+        </div>
+        <div class="item">
+            <img src="geomatics_eng.jpeg" alt="img">
+            <h2>Department Of Geomatics Engineering</h2>
+            <p>Mapping the world with precision.</p>
+        </div>
+    </div>
+</body>
+</html>
